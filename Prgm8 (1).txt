@@ -1,0 +1,40 @@
+package Phase1eLearningAssiignment1;
+
+public class WorkingOfInnerClasses {
+	
+		public static void main(String [] args)
+		{
+			new Inner().in();
+		}
+
+	}
+		 class Inner{
+			 
+			 int val;
+			 void in()
+			 {
+				 int val = 07;
+				 System.out.println("Inside Inner class....");
+				 System.out.println("accessing local val:"+val);
+				 System.out.println("accessing Inner's instance val: " +this.val);
+				 
+			 }
+		
+		 
+		 void met(){
+			 Inner ref = new Inner();
+			 ref.in();
+		 }
+	 }
+	 
+
+
+
+
+*****************OUTPUT******************
+
+Inside Inner class....
+accessing local val:7
+accessing Inner's instance val: 0
+
+
