@@ -1,0 +1,36 @@
+package Phase1eLearningAssiignment1;
+
+import java.util.Scanner;
+
+public class ConvertStringToPrimitiveDataypes {
+	
+	public static void main(String[]  args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string");
+	String s=sc.next();   
+		int i=Integer.parseInt(s); 
+		long l=Long.parseLong(s); 
+		float f=Float.parseFloat(s);
+		double d=Double.parseDouble(s);  
+		char c=s.charAt(0); 
+		boolean b=Boolean.parseBoolean(s);
+		System.out.println("integer :"+i); 
+		System.out.println("boolean : "+b);
+		System.out.println("double :"+d);
+		System.out.println("long : "+l);
+		System.out.println("char : "+c);
+		System.out.println("float : "+f);
+		}
+	}  
+
+
+**********OUTPUT**************
+
+Enter the string
+77
+integer :77
+boolean : false
+double :77.0
+long : 77
+char : 7
+float : 77.0
