@@ -1,0 +1,24 @@
+package Phase1eLearningAssiignment1;
+
+import java.util.regex.*;
+
+public class StringsUsingRegulareExpression {
+	
+	    public static void main(String args[])
+	    {
+	        System.out.println(Pattern.matches(
+	            "Salar", "salar"));
+	        System.out.println(
+	            Pattern.matches("Salar", "Salar"));
+	    }
+	}
+
+
+
+*****************OUTPUT******************
+
+
+
+false
+true
+
