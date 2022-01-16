@@ -1,0 +1,25 @@
+package Phase1eLearningAssiignment1;
+
+public class StringBuilderandBuffer {
+	
+public static void main(String[] args) {
+		
+		StringBuffer buffer = new StringBuffer("Hello how are you?");
+		buffer.append(".How ia you day");
+		StringBuilder builder = new StringBuilder(" Hello Builder");
+		builder.append(".we know you are mutable and the fastest");
+		System.out.println(buffer);
+	}
+
+
+}
+
+
+*****************OUTPUT**********************
+
+
+Hello how are you?.How ia you day -->buffer  o/p
+
+Hello Builder.we know you are mutable and the fastest-->builder  o/p
+
+
